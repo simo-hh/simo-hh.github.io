@@ -1,65 +1,97 @@
 - title: General Information
   type: map
   contents:
-    - name: Name
-      value: Kaixuan Hu
-    - name: Summary
-      value: I am a dedicated and passionate software developer with a deep interest in creating impactful and efficient software solutions. I thrive in collaborative environments, leveraging effective communication and problem-solving skills to contribute to successful projects.
+    - name: Full Name
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
+    - name: Languages
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Visual Computing
-      institution: Simon Fraser University
-      year: 2023 - Present
+    - title: PhD
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - "Major: Electrical and Computer Engineering"
-    - title: Bachelor of Science with Honors
-      institution: University of Alberta
-      year: 2019 - 2023
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - "Major: Computing Science"
-        - "cGPA: 3.7 / 4.0"
-        - "Related Coursework: Algorithms, Software Engineering, Database Systems, Operating Systems, Computer Networks, Artificial Intelligence, Computer Vision, Machine Learning"
-    #     - title: Description 3.
-    #       contents:
-    #         - Sub-description 1.
-    #         - Sub-description 2.
-    # - title: Federal teaching diploma
-    #   institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-    #   year: 1900
-    #   description:
-    #     - Description 1.
-    #     - Description 2.
+        - Description 1.
+        - Description 2.
+
 - title: Experience
   type: time_table
   contents:
-    - title: Software Engineer - (Co-op)
-      institution: MediaShaker
-      year: May 2024 - August 2024
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
       description:
-        - Developed a key feature for a project management website, focusing on a real-time chatroom to facilitate seamless communication among project team members.
-        - Implemented the chatroom backend using TypeScript and Node.js, integrating AWS services for scalable, cloud-based infrastructure and MySQL for robust data management.
-        - Designed and built the frontend interface for the chatroom using React, ensuring an intuitive and responsive user experience that supports dynamic interactions in real-time.
-
-    - title: Teaching Assistant
-      institution: Simon Fraser University
-      year: September 2023- April 2024
-      description:
-        - title: CMPT 307 (Data Structures and Algorithms)
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
           contents:
-            - Designed detailed rubrics for exams and assignments, boosting grading efficiency and student satisfaction.
-            - Conducted weekly office hours and provided personalized tutoring to over 140 students, leading to a perfect evaluation
-score on their end-of-semester evaluation forms.
-
-    - title: Full Stack Engineer 
-      institution: University of Alberta
-      year: September 2022 - December 2022
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
       description:
-        - Developed a Course Scheduling System with React.js and Django, collaborating with 5 software engineers.
-        - Collaborated within an Agile framework, participating in sprint planning and retrospectives for timely delivery.
-        - Designed a PostgreSQL database and migrated extensive data from client, enhancing data management.
-        - Designed UI tests covering 80% of the features using Jest and Selenium, ensuring robust and reliable user interfaces.
-        - Designed and implemented RESTful APIs, facilitating the connection between two major systems and improving
-overall system efficiency.
+        - Description 1.
+        - Description 2.
 
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
