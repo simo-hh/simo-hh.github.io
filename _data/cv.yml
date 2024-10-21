@@ -2,25 +2,25 @@
   type: map
   contents:
     - name: Name
-      value: Wenhao You
+      value: Kaixuan Hu
     - name: Summary
-      value: I am a dedicated and resilient person with a strong capacity to thrive under pressure. My ability to communicate effectively and collaborate within diverse teams has been instrumental in driving project success. I possess a solid foundation in software development, reinforced by my academic background in Computing Science and my ongoing Master's studies in Software Engineering.
+      value: I am a dedicated and passionate software developer with a deep interest in creating impactful and efficient software solutions. I thrive in collaborative environments, leveraging effective communication and problem-solving skills to contribute to successful projects.
 
 - title: Education
   type: time_table
   contents:
-    - title: Master of Engineering
-      institution: University of Waterloo
-      year: Present
+    - title: Master of Visual Computing
+      institution: Simon Fraser University
+      year: 2023 - Present
       description:
         - "Major: Electrical and Computer Engineering"
     - title: Bachelor of Science with Honors
       institution: University of Alberta
-      year: 2020 - 2024
+      year: 2019 - 2023
       description:
         - "Major: Computing Science"
-        - "cGPA: 3.8 / 4.0"
-        - "Related Coursework: Computer Networks, Computer Architecture, Web Development, Software Development, Interface Design, Database Management, Machine Learning, Agile Methodology, Reinforcement Learning."
+        - "cGPA: 3.7 / 4.0"
+        - "Related Coursework: Algorithms, Software Engineering, Database Systems, Operating Systems, Computer Networks, Artificial Intelligence, Computer Vision, Machine Learning"
     #     - title: Description 3.
     #       contents:
     #         - Sub-description 1.
@@ -31,104 +31,46 @@
     #   description:
     #     - Description 1.
     #     - Description 2.
-
 - title: Experience
   type: time_table
   contents:
-    - title: Software Engineer - Intern
+    - title: Software Engineer - (Co-op)
       institution: MediaShaker
-      year: 2024 (4mos)
+      year: May 2024 - August 2024
       description:
         - Developed a key feature for a project management website, focusing on a real-time chatroom to facilitate seamless communication among project team members.
         - Implemented the chatroom backend using TypeScript and Node.js, integrating AWS services for scalable, cloud-based infrastructure and MySQL for robust data management.
         - Designed and built the frontend interface for the chatroom using React, ensuring an intuitive and responsive user experience that supports dynamic interactions in real-time.
 
-    - title: Research Assistant
-      institution: University of Alberta
-      year: Present
-      description:
-        - title: Malware Detection
-          contents:
-            - Developed a diffusion-based model to augment network traffic datasets by converting traffic into images and employing a novel forward-reverse diffusion process, enhancing the detection capabilities against obfuscated malware through the generation of synthetic traffic images.
-            - Designed and tested adversarial training techniques to introduce and counteract noise at the packet level, achieving high fidelity in synthetic image generation, which aids in improving the robustness of malware classifiers against evasion tactics.
-        - title: Phishing Detection
-          contents:
-            - Evaluated visual similarity-based anti-phishing models on a dataset of 450K real-world phishing websites to measure their effectiveness and robustness, uncovering significant performance disparities compared to curated datasets and identifying vulnerabilities in several models.
-            - Conducted adversarial testing by applying visual manipulations to website logos, a common target in phishing attacks, to assess the resilience of detection systems against sophisticated evasion attempts, providing actionable insights for enhancing the security of phishing defense systems.
-
     - title: Teaching Assistant
+      institution: Simon Fraser University
+      year: September 2023- April 2024
+      description:
+        - title: CMPT 307 (Data Structures and Algorithms)
+          contents:
+            - Designed detailed rubrics for exams and assignments, boosting grading efficiency and student satisfaction.
+            - Conducted weekly office hours and provided personalized tutoring to over 140 students, leading to a perfect evaluation
+score on their end-of-semester evaluation forms.
+
+    - title: Full Stack Engineer 
       institution: University of Alberta
-      year: 2023-2024
+      year: September 2022 - December 2022
       description:
-        - title: CMPUT 361 (Introduction to Information Retrieval)
-          contents:
-            - Assisted grading of assignments and exams, and held office hours.
-        - title: CMPUT 201 (Practical Programming Methodology)
-          contents:
-            - Assisted grading of assignments and exams, and designed oral tests.
-
-    - title: Full Stack Developer - Intern
-      institution: Alberta Social Economy Ecosystem Development
-      year: 2023 (4mos)
-      description:
-        - Developed a website that provides resources for businesses using Django framework as the backend, Typescript and React.js as the frontend, providing easy-to-maintain code which replaced the existing bubble.io website.
-        - Utilized PostgreSQL for database construction and deployed the entire project on Docker and Cybera Cloud, boosting the portability and scalability.
-
-    - title: Full Stack Developer - Intern
-      institution: RUI CHENG Technology Co., Ltd.
-      year: 2022 (8mos)
-      description:
-        - Developed a real-time factory intelligence monitoring system using Node.js and Express; designed robust APIs for live safety data alerts, enabling proactive maintenance and immediate response to critical equipment issues.
-        - Enhanced system architecture and user interface by refactoring to a component-based architecture with Vue.js and CSS, which improved system reliability and maintainability—resulting in a 30% reduction in user-reported issues during testing phases.
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Developed a Course Scheduling System with React.js and Django, collaborating with 5 software engineers.
+        - Collaborated within an Agile framework, participating in sprint planning and retrospectives for timely delivery.
+        - Designed a PostgreSQL database and migrated extensive data from client, enhancing data management.
+        - Designed UI tests covering 80% of the features using Jest and Selenium, ensuring robust and reliable user interfaces.
+        - Designed and implemented RESTful APIs, facilitating the connection between two major systems and improving
+overall system efficiency.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2024
-      items:
-        - Rhodes Scholarship - Presedent Endorsement
-        - First Class Honors
-        - Dean's Silver Medal
     - year: 2023
       items:
-        - International Student Scholarship
-        - Dean's Honor Roll
-    - year: 2022
+        - Dean's Silver Medal
+    - year: 2019 - 2023
       items:
-        - International Student Scholarship
         - Dean's Honor Roll
-    - year: 2021
-      items:
         - International Student Scholarship
-        - Dean's Honor Roll
-        - University of Alberta Undergraduate Scholarship
-    - year: 2020
-      items:
-        - International Student Scholarship
-        - Dean's Honor Roll
 
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: Artificial Intelligence
-      items:
-        - Machine Learning
-        - Natural Language Processing
-        - Cyber Security
-        - Computer Vision
-    - title: Software Engineering
-      items:
-        - Agile Development
-        - DevOps
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Camping, Hiking, Fishing, etc.
