@@ -63,3 +63,14 @@ score on their end-of-semester evaluation forms.
         - Designed and implemented RESTful APIs, facilitating the connection between two major systems and improving
 overall system efficiency.
 
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2023
+      items:
+        - Dean's Silver Medal
+    - year: 2019 - 2023
+      items:
+        - Dean's Honor Roll
+        - International Student Scholarship
+
